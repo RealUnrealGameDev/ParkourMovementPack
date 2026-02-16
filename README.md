@@ -13,12 +13,12 @@ Available for purchase on Fab: https://fab.com/s/d93079e00dd0
 
 ## Overview
 
-- Momentum-preserving movement model  
-- Physics-aware sliding system  
-- Responsive, non-floaty jump arcs  
-- Wall interaction mechanics with controlled force separation  
-- Optional camera and velocity feedback systems  
-- Cleanly exposed variables for rapid tuning and iteration  
+- Momentum-preserving movement
+- Basic Sliding system  
+- Responsive, non-floaty jump
+- Wall Jump/Run mechanics with controlled force separation  
+- Optional camera and velocity feedback  
+- Cleanly exposed variables for customization
 
 ---
 
@@ -26,28 +26,26 @@ Available for purchase on Fab: https://fab.com/s/d93079e00dd0
 
 ### Sliding
 
-- Physics-based, slope-reactive slide system  
+- Basic Sliding system
 - Preserves player velocity instead of dampening it  
-- Naturally chains into jumps and wall actions  
-- Encourages skill-based speed maintenance  
+- Naturally chains into jumps and wall actions
+- Has checks to avoid player getting stuck
 
 ---
 
 ### Wall Jumping
 
-- Horizontal and vertical forces calculated independently  
-- Prevents infinite vertical climbing exploits  
-- Maintains forward flow and readable momentum  
-- Supports advanced movement routing  
+- Horizontal and vertical forces calculated independently
+- Similar to Titanfall but a more basic version
 
 ---
 
 ### Jump Design
 
-- Tuned gravity scaling for fast traversal  
-- Eliminates float-heavy hang time  
-- Creates sharp, readable movement arcs  
-- Optimized for competitive responsiveness  
+- Faster Gravity while falling
+- Eliminates float-heavy hang time
+- Coyote Time Added
+- Jump Buffer Added
 
 ---
 
@@ -55,16 +53,14 @@ Available for purchase on Fab: https://fab.com/s/d93079e00dd0
 
 - Optional velocity-based camera tilt  
 - Speed-based visual feedback systems  
-- Reinforces sense of motion and control  
-- Maintains clarity at high traversal speeds  
 
 ---
 
 ### Customization
 
-- All major movement variables exposed  
+- All major movement variables customizable
 - Adjustable acceleration, gravity scale, slide friction, wall force values  
-- Designed for rapid Blueprint or C++ iteration  
+- Designed for Blueprints
 - Clean architecture for expansion  
 
 ---
@@ -74,7 +70,7 @@ Available for purchase on Fab: https://fab.com/s/d93079e00dd0
 ### Features
 
 - Velocity-preserving character controller  
-- Slope-aware physics sliding  
+- Sliding  
 - Force-separated wall jump logic  
 - Adjustable gravity and air control systems  
 - Modular camera feedback options  
