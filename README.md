@@ -7,6 +7,8 @@ Unreal Engine 5’s default Character Movement Component is a general-purpose lo
 
 This template edits the player movement around a **fast paced model** inspired by Titanfall-style mobility systems.
 
+Available for purchase on Fab: https://fab.com/s/d93079e00dd0
+
 ---
 
 ## Overview
